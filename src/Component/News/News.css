@@ -1,0 +1,30 @@
+.akhbare a {
+    color: black;
+    display: inline-block;
+    text-align: left;
+   
+  }
+  .akhbare .friends-name{
+    font-size: 1em;
+    font-weight: bold;
+    position: relative;
+    left: -40px;
+  
+  }
+  
+  .akhbare .frendsbio{
+      position: relative;
+      left: -40px;
+    
+    }
+
+  .akhbare{
+    position: relative;
+    left: -19px;
+  }
+  .THe_News{
+    font-weight: bold;
+  }
+  .akhbare .THe_News .News_date{
+    border-bottom: 1px solid black;
+  }

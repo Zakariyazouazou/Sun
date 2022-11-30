@@ -1,0 +1,47 @@
+.presenteure{
+    margin-top: 20px;
+    display: flex;
+}
+.presenteure img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+}
+.Just_for_devision{
+    margin-top: 10px;
+    
+}
+.mama{
+    display: flex;
+    align-items: center;
+}
+.mama li {
+    margin-right: 10px;
+}
+
+.mama li a {
+    color: black;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.other_mama {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vmin;
+   
+}
+/* .lkhjsf{
+    margin-right: 42em;
+} */
+
+
+@media screen and (max-width:790px) {
+    .other_mama {
+
+        width: 100%;
+       
+    }
+}

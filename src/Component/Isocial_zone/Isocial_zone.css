@@ -1,0 +1,52 @@
+.Isocial_liste{
+    display: flex;
+    align-items: center;
+}
+.Isocial_liste li{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.Isocial_liste li img {
+    width: 2em;
+    margin-right: 10px;
+    transition: 0.2s ease-in-out;
+}
+.Isocial_liste li img:hover{
+    transform: scale(1.1);
+}
+.Isocial_liste li a{
+   color: black;
+}
+.Input_zone {
+    display: flex;
+    align-items: center;
+}
+.Input_zone img{
+    width: 5em;
+    height: 5em;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 94, 0);
+
+}
+.Tospeakcomment{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 90vmin ; 
+    background-color: rgb(240, 222, 149);
+    border-radius: 12px;
+}
+.Tospeakcomment{
+    border: 1px solid rgb(192, 133, 5);
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .Input_zone li input{
+        width: 100%;
+    }
+}

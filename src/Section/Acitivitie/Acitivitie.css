@@ -1,0 +1,10 @@
+.Acitivitie_container{
+background-color: rgb(240, 222, 149);
+border-radius: 20px;
+box-shadow: 0 5px 25px rgba(1,1,1,15%);
+margin-bottom: 3em;
+}
+
+.sqfn{
+    padding-top: 10px ;
+}

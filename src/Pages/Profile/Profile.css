@@ -1,0 +1,96 @@
+.identification_profile{
+    background-color: rgb(240, 222, 149);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    margin-bottom: 3em;
+
+}
+
+.background_profile{
+    background-image: url(../../assets/all_pic/backgrounf_profile.webp);
+    width: 100%;
+    height: 20em;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+
+}
+.My_pic_profile{
+    background-image: url(../../assets//all_pic/mon_img.jpg);
+    width: 10em;
+    height: 15em;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    position: absolute;
+    left: 42%;
+    top: 10em;
+    
+}
+.personnel_speache{
+    margin-left: 10vmin;
+}
+
+@media screen and (max-width : 700px){
+    .My_pic_profile{
+        width: 35%;
+        height: 15em;
+        left: 35%;
+        top: 10em;
+    }
+}
+
+.Profile_option{
+    display: flex ;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Profile_option img{
+    width:2.5em ;
+    margin-right: 10px; 
+    transition: 0.3s ease-out;
+}
+
+.Profile_option li {
+    font-weight: 600;
+    padding-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.Profile_option img:hover {
+    transform: scale(1.01);
+}
+
+
+.Service_profile{
+    padding-top: 8px;
+    border-top: 2px solid gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+
+.Service_profile li a{
+    color: black;
+    font-weight: 900;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+.Service_profile li a:hover{
+    color: rgb(149, 149, 6);
+}
+
+

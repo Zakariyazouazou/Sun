@@ -1,0 +1,137 @@
+.About_container{
+    margin-top: 2%;
+    margin-left:15px;
+    width: 20em;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    position: absolute;
+    background-color: rgb(240, 222, 149);
+    height:52em;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    top: 90px;
+    right: 12px;
+}
+.About_container::-webkit-scrollbar {
+    display: none;
+  }
+
+.About_container h5{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.About_container span{
+     margin-left: 10px;
+}
+.About_container img{
+    width: 2em;
+}
+
+.About_container ul{
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray ;
+}
+.About_container li{
+    margin-top:10px
+}
+.Exeperience_container span {
+    margin-left: 20px;
+}
+.Other_About_container{
+    position: fixed;
+    z-index: 999;
+}
+
+.For_More{
+    display: inline-block;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border: 1px solid rgb(142, 142, 4);
+    transition: 0.3s ease;
+}
+.For_More:hover{
+     background-color: rgb(186, 147, 3);
+     color: wheat;
+}
+
+
+.About_photo ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border: none;
+}
+
+.Album_Photo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(142, 142, 4);
+}
+.Album_Photo img{
+    width:6em;
+    margin: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 0.2s ease-in;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    
+}
+.About_photo img:hover{
+    opacity: 1;
+}
+
+.Abou_frends ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border: none;
+}
+.Abou_frends_container_images{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Abou_frends_image div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Only_Abou_frends_container{
+    width:9em ; 
+    margin: 5px;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+ 
+   text-align: center; 
+   transition: 0.3s ease ;  
+
+}
+.Only_Abou_frends_container:hover{
+    transform: scale(1.1);
+}
+.Abou__Image{
+   
+   cursor: pointer;
+}
+.Abou__Image img{
+    margin-top: 5px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:1450px){
+    .About_container{
+        display: none;
+    }
+   
+  }

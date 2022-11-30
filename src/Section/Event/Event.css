@@ -1,0 +1,65 @@
+.Event_container{
+    background-color: rgb(240, 222, 149);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    margin-bottom: 3em;
+}
+.Event_container_liste{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.Event_container_liste h5{
+    cursor: pointer;
+    font-weight: bolder;
+}
+.Creat_Event_container h5{
+    border: 1px solid gray ;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px ;
+    transition :0.3s ease ; 
+}
+.Creat_Event_container h5:hover{
+    background-color: rgb(178, 143, 6);
+    color: white;
+}
+
+.Event_container_2liste{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.Event_container_2liste img{
+    width: 4em ;    
+}
+.Event_container_2liste_favorite{
+    margin-left: 10px;
+}
+.Event_container_2liste_favorite img{
+    width: 1em ;
+    margin-right: 5px;
+    margin-left:5px ; 
+}
+
+.Edit-thesse{
+    margin-left: 10vmin;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid gray ;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition :0.3s ease ; 
+}
+
+.Edit-thesse:hover{
+    background-color: rgb(178, 143, 6);
+    color: white;
+}

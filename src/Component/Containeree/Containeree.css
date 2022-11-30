@@ -1,0 +1,19 @@
+.My_containeree{
+position: absolute;
+width: 60%;
+margin-top: 10px;
+left: 19%;
+top: 130px;
+}
+
+
+
+
+@media screen and (max-width:1440px){
+    .My_containeree{
+        top: 130px; 
+        left: 0%; 
+        width: 100%;
+        }
+   
+}

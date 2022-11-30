@@ -1,0 +1,16 @@
+.Statu_exempl_conatiner{
+    background-color: rgb(240, 222, 149);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+
+
+}
+
+
+.unique_status .Status-identificatio li a{
+    color: black;
+    font-weight: 800;
+} 
+.img_status{
+    margin-right: 15px;
+}

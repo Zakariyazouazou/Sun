@@ -1,0 +1,78 @@
+.Many_pages_container{
+    background-color: rgb(240, 222, 149);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+}
+.For_Add_friends_container{
+    display: flex;
+    margin-left: 4em;
+}
+.bigone{
+    width: 40em;
+    height: 71.8em;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+}
+
+.other_image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+.First_small_img{
+    width: 22em;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+
+
+}
+.Secong_small_img{
+    width: 22em;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: 0.5s ease-in-out;
+
+}
+
+.Secong_small_img:hover{
+    opacity: 1 ;
+}
+
+
+
+
+@media  screen and (max-width: 767px) {
+    .Many_pages_container{
+        margin-top: 6em;
+    }
+    .For_Add_friends_container{
+        width: 90%;
+        overflow: hidden;
+        margin-left: 8vmin;
+    }
+    .bigone{
+        width: 65%;
+        height: 100%;
+        margin: 0;
+    }
+    .other_image{
+        width: 29%;
+        overflow: hidden;
+        margin-left: 2vmin;
+    }
+    .First_small_img{
+        width: 100%;
+    }
+    .Secong_small_img{
+        width: 100%;
+    }
+
+}

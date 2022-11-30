@@ -1,0 +1,160 @@
+.Specialzone{
+    background-color: rgb(240, 222, 149);
+    top: -17px;
+    margin-top: 2%;
+    width: 30em;
+    border-radius: 20px;
+    position: absolute;
+    right: 1px;
+}
+.Header_specialzone{
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  position: absolute fixed !important;
+  z-index: 3000;
+
+}
+.Drop{
+  display: none;
+  background-color: rgb(245, 196, 3);
+  position: absolute;
+  top :15em;
+  padding: 5px;
+  border-radius: 20px;
+  right:15em ;
+  font-size: 2em;
+  cursor: pointer;
+  color: rgb(255, 170, 0);
+}
+.Drop:hover{
+  color: rgb(114, 77, 5);
+}
+.Drope{
+  display: block;
+  
+  position: fixed;
+  z-index: 999;
+
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.basicsMessenger{
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-left: 10px;
+}
+.forthis{
+  margin-right: 5px;
+}
+
+
+.Specialzone{
+  display: none;
+}
+.For_chat{
+  position: absolute;
+  width: 3em;
+  right: 15px;
+  top: 8%;
+  transition: 0.5s ease ; 
+  cursor: pointer;
+}
+.For_chat:hover{
+  transform: scale(1.1);
+}
+
+
+
+.nany {
+  display: block;
+  margin-top: 450px;
+  box-shadow: 0 5px 25px rgba(1,1,1,15%);
+  height: 40em;
+  
+  position: fixed;
+  z-index: 999;
+
+  overflow: scroll;
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.nany::-webkit-scrollbar {
+  display: none;
+}
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+.other{
+
+
+  -webkit-animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: slide-out-right 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+
+}
+
+@-webkit-keyframes slide-out-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+}
+@keyframes slide-out-right {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+}
+
+
+@media screen and (max-width:1140px){
+  .For_chat{
+    display: none;
+  }
+  .Specialzone{
+    display: none;
+  }
+  .Drope{
+    display: none;
+   
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+}

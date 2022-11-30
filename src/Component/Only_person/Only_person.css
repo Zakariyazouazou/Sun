@@ -1,0 +1,41 @@
+
+  /* ================================================== */
+
+
+
+.Titel{
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.only-person{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  
+}
+.Person{
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  margin-left: 10px ;
+  margin-right:10px ;
+  
+  
+}
+.Addation{
+  width: 3.5em;
+  height: 3.5em;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right:10px ;
+}
+.for_just-frindes{
+   width: 80%;
+   display: inline-block ; 
+   height: 3em;
+   overflow: hidden;
+   
+}

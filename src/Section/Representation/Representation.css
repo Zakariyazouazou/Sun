@@ -1,0 +1,104 @@
+.Reperesentation_container{
+    background-color: rgb(240, 222, 149);
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+
+
+}
+
+
+
+
+
+.comment{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 15px;
+}
+.b{
+    display: flex;
+}
+.b img{
+    width:4em ; 
+    height:4em;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 94, 0);
+}
+
+.comment-identificatio{
+    display: flex;
+}
+.comment-identificatio :first-child a {
+    color: black;
+    font-weight: 700;
+    margin-right: 10px;
+    transition: 0.2s ease ;
+}
+
+.comment-identificatio :first-child a:hover{
+    color :rgb(83, 65, 1) ; 
+}
+.unique_comeent{
+    border: 1px solid rgb(104, 101, 101) ;
+    border-radius: 20px;
+    margin-left: 2px;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    margin-top: 10px;
+    width: 90%;
+    overflow: hidden;
+    background-color: rgb(240, 213, 106);
+
+}
+.c{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c li{
+   font-weight: 600;
+
+}
+ .d{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    margin-left: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+ }
+ .d li {
+    margin-right: 30px;
+ }
+ .d li a {
+    color: black ;
+    font-weight: 700;
+    transition: 0.3s ease ;
+ }
+ .d li a:hover {
+    color :rgb(43, 40, 29) ; 
+
+ }
+
+.bcomment{
+    width: 70%;
+    margin-left: 20%;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 15px; 
+}
+.ccomment{
+    width: 60%;
+    margin-left: 30%;  
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+    border-radius: 15px;
+}
+
+
+.misaha{
+    padding-bottom: 10px;
+}

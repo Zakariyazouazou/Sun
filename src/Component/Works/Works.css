@@ -1,0 +1,28 @@
+.Your_works{
+    margin-left: 2em;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.Your_works h6{
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.Your_works img{
+    width: 70em;
+    box-shadow: 0 5px 25px rgba(1,1,1,15%);
+}
+
+
+
+@media screen  and (max-width: 768px){
+  .Your_works{
+    margin-left: 5px;
+  }
+  .Your_works img{
+    width: 100%;
+  }   
+}
