@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
   {/*"homepage": "https://Zakariyazouazou.github.io/NewmediaSocial",*/},
+
+
+  "homepage": "https://Zakariyazouazou.github.io/Social",
